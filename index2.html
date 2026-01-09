@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <title>HTML Practice Page</title>
+        <meta>
+    </head> 
+    <style>
+        body{
+            background-color: rgb(215, 204, 224);
+        }
+        #header{
+            font: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            font-size: 50px;
+            text-shadow: 20px 20px 5px grey;
+            transition: all 0.5s;
+        }
+        #header:hover{
+            color: rgb(255, 0, 0);
+        }
+        #subhead{
+            
+            color: rgb(135, 66, 181);
+            color: lightcoral;
+            opacity: 0.4;
+            letter-spacing: 5px;
+        }
+        .paro{
+            background-color: lightskyblue;
+            border: 2px solid black;
+            border-radius: 10px;
+            line-height: 43px;
+            font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: auto;
+        }
+        .list{
+            color: rgb(4, 147, 99);
+        }
+        #order{
+            font-weight: bold;
+            color: rgb(236, 148, 40);
+            font-weight: bold;
+            list-style: lower-roman;
+            letter-spacing: 2px;
+        }
+        #butt{
+            background-color: lightpink;
+            border-radius: 9px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            cursor:pointer;
+            padding: 10px;
+        }
+        #butt:hover{
+            background-color: lightgreen;
+            box-shadow: 7px 7px 5px rgba(128, 128, 128, 0.586);
+            transform: scale();
+            
+        }
+        .foot{
+            text-align: center;
+            font-size: 14px;
+            color: rgb(3, 128, 132);
+            text-align: center;
+        }
+        pre{
+            background-color: maroon;
+            color: yellowgreen;
+            font-family: monospace;
+        }
+        .paro2{
+            font-size: 20px;
+            background-color: lightpink;
+            border: 3px solid black;
+            transform: matrix3d();
+            rotate: 0deg;
+        }
+        ul.list li{
+            text-decoration: underline;
+            background-color: lightcyan;
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: darkcyan;
+        }
+        a:hover{
+            color: rgb(37, 6, 109);
+        }
+        span{
+            font-weight: bold;
+            font-size: 20px;
+            color: darkorange;
+
+        }
+        div{
+            background-color: lightgrey;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px grey;
+        }
+
+    </style>
+    <body>
+        <h1 id="header">HTML Practice Page</h1>
+
+        <h3 id="subhead">Let's Practice</h3>
+
+        <p class="paro"><b><strong><i><em>THis is my paragraph where I am practicing HTML and CSS and i love to do code which look wierd but not good.</em></i></strong></b></p>
+        <p class="paro2">This is the second paragraph which is glowing one and roated one</p>
+        <br>
+
+        <hr>
+        <pre >
+            My Name is saksham gharat
+            I am learning HTML5 and CSS3
+            I love coding because it is not boring
+            Making websites are not cool
+        </pre>
+
+        <ul class="list">
+            <li>Panner</li>
+            <li>Peas</li>
+            <li>Cream</li>
+            <li>Masala</li>
+        </ul>
+
+        <ol id="order">
+            <li>saksham gharat/li>
+            <li>Apple kadam</li>
+            <li>Raj Rasal</li>
+        </ol>
+        <a href="https://x.com/home">Twitter</a>
+        <div>
+             This is a span
+            <span>
+                element inside a div.
+            </span>
+        </div>
+<br>
+        <button id="butt">Submit</button>
+     
+        
+        <footer class="foot">All right are reserved ©️</footer>
+    </body>
+</html>
